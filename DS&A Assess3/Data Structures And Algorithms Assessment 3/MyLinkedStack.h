@@ -8,4 +8,3 @@ public:
 	void display();
 	std::list<int> IntLinkedList;
 };
-

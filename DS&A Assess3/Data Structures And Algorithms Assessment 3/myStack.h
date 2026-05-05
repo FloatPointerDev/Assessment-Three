@@ -8,6 +8,6 @@ public:
 	// MyStack
 	bool isFull();		// returns full if no more space
 	void display();		// Console UI for testing
-	std::list<int> IntArrayList = std::list<int>(20);	// Int list that stores up to 20 integers
+	std::list<int> IntArrayList;	// Int list that stores up to 20 integers
 };
 

@@ -15,11 +15,9 @@ int main()
             astack.push(i);
         }
 
-        std::cout << "testing Stack " << std::endl;
-
         std::cout << "num values in stack: " << astack.size() << std::endl;
         astack.display();
-        std::cout << "num values in stack: " << astack.pop() << std::endl;
+        std::cout << "popping value: " << astack.pop() << std::endl;
         std::cout << "value 5 should have been removed" << std::endl;
         astack.display();
     }
@@ -33,13 +31,10 @@ int main()
             astack.push(i);
         }
 
-        std::cout << "testing Stack " << std::endl;
-
         std::cout << "num values in stack: " << astack.size() << std::endl;
         astack.display();
-        std::cout << "num values in stack: " << astack.pop() << std::endl;
+        std::cout << "popping value: " << astack.pop() << std::endl;
         std::cout << "value 5 should have been removed" << std::endl;
         astack.display();
-
     }
 }

@@ -3,7 +3,7 @@
 #include "stackADT.h"
 
 bool MyStack::isFull() {
-	if (IntArrayList.size() >= 20) {
+	if (stackADTlist.size() >= 20) {
 		return true;
 	}
 	else {
@@ -12,9 +12,9 @@ bool MyStack::isFull() {
 }
 
 void MyStack::display() {
-	std::cout << "List has " << IntArrayList.size() << " Items";
+	std::cout << "List has " << stackADTlist.size() << " Items\n";
 
-	for (int i = 0; i < IntArrayList.size(); i++) {
+	for (int i = 0; i < stackADTlist.size(); i++) {
 		std::cout << "value: " << i << std::endl;
 	}
 }
