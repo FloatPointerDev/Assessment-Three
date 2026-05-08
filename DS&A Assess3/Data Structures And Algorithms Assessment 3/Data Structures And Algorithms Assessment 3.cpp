@@ -22,6 +22,8 @@ int main()
         astack.display();
     }
 
+    std::cout << "\n \n";
+
     void linkedStackDriver(); {
         MyLinkedStack astack;
         std::cout << "testing Stack " << std::endl;

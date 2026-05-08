@@ -1,2 +1,7 @@
-﻿  setADT.cpp
+﻿  Data Structures And Algorithms Assessment 3.cpp
+  MyLinkedStack.cpp
+  myStack.cpp
+  stackADT.cpp
+  Generating Code...
+C:\Users\2000245\OneDrive - Dundee and Angus College\Documents\Year 2\Repository\DS&A Assess3\Data Structures And Algorithms Assessment 3\stackADT.cpp(20,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   Data Structures And Algorithms Assessment 3.vcxproj -> C:\Users\2000245\OneDrive - Dundee and Angus College\Documents\Year 2\Repository\DS&A Assess3\x64\Debug\Data Structures And Algorithms Assessment 3.exe

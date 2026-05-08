@@ -3,9 +3,17 @@
 #include "stackADT.h"
 
 void MyLinkedStack::display() {
-	std::cout << "List has " << stackADTlist.size() << " Items\n";
+	std::cout << "List has " << IntLinkedList.size() << " Items\n";
 
-	for (int i = 0; i < stackADTlist.size(); i++) {
+	for (int i = 0; i < IntLinkedList.size(); i++) {
 		std::cout << "value: " << i << std::endl;
 	}
+}
+
+void MyLinkedStack::push(int value) {
+	IntLinkedList.push_front(value);
+}
+int MyLinkedStack::pop() {
+	IntLinkedList.pop_front();
+	return 0;
 }
